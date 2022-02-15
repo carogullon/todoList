@@ -1,0 +1,122 @@
+*
+*:before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+body {
+    height:100vh;
+    background:#98B4AA;
+}
+header h1{
+    width:50%;
+    margin-top:10%;
+    margin-left:35%;
+    font-family:'Poppins', sans-serif;
+    font-size:50px;
+    color:white;
+    font-weight: 600;
+}
+
+.container{
+    width:40%;
+    top:30%;
+    left:50%;
+    background:white;
+    border-radius:10px;
+    min-width:450px;
+    position:absolute;
+    min-height:100px;
+    transform: translate( -50%)
+}
+
+#newtask {
+    position:relative;
+    padding:30px 20px; 
+}
+
+#newtask input {
+    width:70%;
+    height:45px;
+    padding:12px;
+    color:#111111;
+    font-weight:500;
+    position:relative;
+    border-radius:5px;
+    font-family:'Poppins', sans-serif;
+    font-size:15px;
+    border:2px solid #495371;
+}
+#newtask input:focus{
+    outline:none;
+    border-color:#74959A;
+}
+
+#newtask button {
+    position:relative;
+    top:15px;
+    float:right;
+    font-weight:500;
+    font-size:16px;
+    background-color:#F1E0AC;
+    padding:12px;
+    border:none;
+    cursor:pointer;
+    outline:none;
+    width:20%;
+    height:45px;
+    border-radius:5px;
+    font-family:'Poppins', sans-serif;
+    color:#495371;
+}
+
+#tasks {
+    border-radius:10px;
+    width:90%;
+    position:relative;
+    background-color:#F1E0AC;
+    padding:30px 20px;
+    margin-top:10px;
+}
+.task{
+    display:flex;
+    flex-direction:row;
+}
+#taskname {
+    font-family:'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:400;
+    width:80%;
+    border-radius:5px;
+    align-items:center;
+    justify-content:space-between;
+    cursor:pointer;
+    background-color: white;
+    height:40px;
+    margin-bottom:8px;
+    margin-top:10px;
+    padding:5px;
+    display:flex;
+    flex-direction:row;
+
+}
+#delete i {
+    background-color: rgb(247, 43, 43);
+    color:white;
+    border:none;
+    cursor:pointer;
+    outline:none;
+    height: 100%;
+    width:70%;
+    border-radius:5px;
+    align-items:center;
+    padding: 5px;
+    justify-content:space-between;
+    flex-direction:row;
+    margin-top:-150px;
+    margin-bottom:60px;
+}
+
+
